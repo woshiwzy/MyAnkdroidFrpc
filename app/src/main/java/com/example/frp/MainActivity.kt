@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val ini = getPreferences(Context.MODE_PRIVATE).getString(
             "frpc_ini",
             "[common]\n" +
-                    "server_addr = 161.117.195.45\n" +
+                    "server_addr = x.x.x.x\n" +
                     "server_port = 9000\n" +
                     "[adb]\r\n" +
                     "type = tcp\n" +
